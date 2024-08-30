@@ -1,3 +1,4 @@
+import { intarEnVerde } from "./locoLores"
 
 export function Tabla (){
 
@@ -24,7 +25,7 @@ function Semana (){
 return (
 <>
     <div className="primera">
-        <button className="boton">1</button>
+        <button onClick={PintarEnVerde} className="boton">1</button>
         <button className="boton">2</button>
         <button className="boton">3</button>
         <button className="boton">4</button>
